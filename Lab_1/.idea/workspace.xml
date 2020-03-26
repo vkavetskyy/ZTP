@@ -25,7 +25,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -67,29 +69,57 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585165332180" />
-    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1585165225376">
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1585173556366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585165225376" />
-    <state width="1921" height="286" key="GridCell.Tab.0.bottom" timestamp="1585167029472">
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585173556366" />
+    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585173671907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585167029472" />
-    <state width="1921" height="286" key="GridCell.Tab.0.center" timestamp="1585167029472">
+    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1585173671907" />
+    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1585222196731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585167029472" />
-    <state width="1921" height="286" key="GridCell.Tab.0.left" timestamp="1585167029472">
+    <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585222196731" />
+    <state width="1921" height="283" key="GridCell.Tab.0.bottom" timestamp="1585242376503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585167029472" />
-    <state width="1921" height="286" key="GridCell.Tab.0.right" timestamp="1585167029472">
+    <state width="1921" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585242376503" />
+    <state width="1921" height="283" key="GridCell.Tab.0.center" timestamp="1585242376502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585167029472" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585156197351">
+    <state width="1921" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585242376502" />
+    <state width="1921" height="283" key="GridCell.Tab.0.left" timestamp="1585242376502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585156197351" />
+    <state width="1921" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585242376502" />
+    <state width="1921" height="283" key="GridCell.Tab.0.right" timestamp="1585242376502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585242376502" />
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1585174381166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585174381166" />
+    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1585174381166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585174381166" />
+    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1585174381166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585174381166" />
+    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1585174381166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585174381166" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585223529479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585223529479" />
+    <state x="666" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1585173850224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585173850224" />
   </component>
 </project>

@@ -17,36 +17,47 @@ public class Wyswietlacz {
 
 
 
-        List<Pojazd> kontenerPojazdow = new ArrayList<>();
+        List kontenerPojazdow = new ArrayList<>();
         kontenerPojazdow.add(pojazd1);
         kontenerPojazdow.add(pojazd2);
 
-        List<Osobowy> koneterOsobowych = new ArrayList<>();
+        List koneterOsobowych = new ArrayList<>();
         koneterOsobowych.add(osobowy1);
         koneterOsobowych.add(osobowy2);
 
-        List<Samochod> kontenerSamochodow = new ArrayList<>();
+        List kontenerSamochodow = new ArrayList<>();
         kontenerSamochodow.add(samochod1);
         kontenerSamochodow.add(samochod2);
 
-        pokazDanePojazd(koneterOsobowych);
-//        pokazDaneOsobowy(koneterOsobowych);
-//        pokazDaneSamochodow(kontenerSamochodow);
+        pokazDanePojazd(kontenerPojazdow);
+        pokazDaneOsobowy(koneterOsobowych);
+        pokazDaneSamochodow(kontenerSamochodow);
+
+        System.out.println("--------------------");
+
+        //pokazDaneSamochodow(kontenerPojazdow);
+        pokazDaneOsobowy(kontenerSamochodow);
+
     }
 
     static void pokazDanePojazd(List<Pojazd> kontener) {
-        for (Pojazd pojazd: kontener) {
-            pojazd.print(pojazd);
+        for(Pojazd pojazd: kontener) {
+            Pojazd temp = new Pojazd(pojazd.typ, pojazd.naped);
+            System.out.println(temp.toString());
         }
     }
 
     static void pokazDaneOsobowy(List<Osobowy> kontener) {
-        for(Osobowy osobowy: kontener)
-            osobowy.print(osobowy);
+        for(Osobowy osobowy: kontener) {
+            Osobowy temp = new Osobowy(osobowy.typ, osobowy.naped, osobowy.iloscMiejsc, osobowy.waga);
+            System.out.println(temp.toString());
+        }
     }
 
     static void pokazDaneSamochodow(List<Samochod> kontener) {
-        for(Samochod samochod: kontener)
-            samochod.print(samochod);
+        for(Samochod samochod: kontener) {
+            Samochod temp = new Samochod(samochod.typ, samochod.naped, samochod.iloscMiejsc, samochod.waga, samochod.producent, samochod.model, samochod.rok);
+            System.out.println(temp.toString());
+        }
     }
 }

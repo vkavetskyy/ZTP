@@ -1,7 +1,7 @@
 public class Samochod extends Osobowy {
-    public String producent;
-    public String model;
-    public String rok;
+    public final String producent;
+    public final String model;
+    public final String rok;
 
     public Samochod(String typ, String naped, String iloscMiejsc, String waga, String producent, String model, String rok) {
         super(typ, naped, iloscMiejsc, waga);
@@ -14,8 +14,9 @@ public class Samochod extends Osobowy {
         System.out.println(samochod.toString());
     }
 
+
     @Override
     public String toString() {
-        return ">Samochód" + "\nTyp: " + typ + "\nNapęd: " + naped + "\nIlość miejsc:" + iloscMiejsc + "\nWaga: " + waga + "\nProducent: " + producent +"\nModel: " + model + "\nRok:" + rok +"\n";
+        return super.toString() + "\nProducent: " + producent +"\nModel: " + model + "\nRok:" + rok;
     }
 }

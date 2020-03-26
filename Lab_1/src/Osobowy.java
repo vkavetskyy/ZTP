@@ -1,6 +1,6 @@
 public class Osobowy extends Pojazd {
-    public String iloscMiejsc;
-    public String waga;
+    public final String iloscMiejsc;
+    public final String waga;
 
 
     public Osobowy(String typ, String naped, String iloscMiejsc, String waga) {
@@ -13,8 +13,9 @@ public class Osobowy extends Pojazd {
         System.out.println(osobowy.toString());
     }
 
+
     @Override
     public String toString() {
-        return ">Osobowy" + "\nTyp: " + typ + "\nNapęd: " + naped + "\nIlość miejsc: " + iloscMiejsc + "\nWaga: " + waga + "\n";
+        return super.toString() + "\nIlość miejsc: " + iloscMiejsc + "\nWaga: " + waga;
     }
 }

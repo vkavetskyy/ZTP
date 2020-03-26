@@ -1,6 +1,6 @@
 public class Pojazd {
-    public String typ;
-    public String naped;
+    public final String typ;
+    public final String naped;
 
     public Pojazd(String typ, String naped) {
         this.typ = typ;
@@ -13,6 +13,6 @@ public class Pojazd {
 
     @Override
     public String toString() {
-        return ">Pojadz" + "\nTyp: " + typ + "\nNapęd: " + naped + "\n";
+        return "\nTyp: " + typ + "\nNapęd: " + naped;
     }
 }
