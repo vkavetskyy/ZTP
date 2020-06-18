@@ -1,13 +1,14 @@
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 public class Main {
 
     public static void main(String[] args) {
-        Generator generator = new Generator();
-        StudentUtils studentUtils = new StudentUtils();
-        List<Wydzial> list = generator.generujWydzialy(10, 10);
+        var generator = new Generator();
+        var studentUtils = new StudentUtils();
+        var listTemp = generator.generujWydzialy(10, 10);
+        var list = Collections.unmodifiableList(listTemp);
 
         //Filtrowanie
         System.out.println("Studenci z numerem albumu większym od 200000");
@@ -31,5 +32,13 @@ public class Main {
         System.out.println("\nŚrednia wieku studentów wg. płci");
         studentUtils.sredniaWieku(list);
 
+        //4.2
+        studentUtils.help();
+
+        try {
+            list.add(new Wydzial("Test", null));
+        } catch (Exception e) {
+            System.out.println("\n" + e);
+        }
     }
 }

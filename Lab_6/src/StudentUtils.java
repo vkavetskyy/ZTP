@@ -1,8 +1,11 @@
-import java.util.*;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class StudentUtils {
+public class StudentUtils implements IStudentUtils {
 
     //Filtrowanie
     public List<Student> getNumerIndeksuWiekszyOd(List<Wydzial> wydzialy, int numberAlbumu) {
@@ -15,7 +18,7 @@ public class StudentUtils {
     //Map
     public Map<Student, Wydzial> studenciWydzialy(List<Wydzial> wydzialy) {
         Map<Student, Wydzial> map = new HashMap<>();
-        for(Wydzial wydzial: wydzialy) {
+        for(var wydzial: wydzialy) {
             for(Student student: wydzial.getListaStudentow()) {
                 map.put(student, wydzial);
             }
